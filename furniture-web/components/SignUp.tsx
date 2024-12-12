@@ -20,9 +20,9 @@ export const SignUp = () => {
           <input
             type="email"
             placeholder="your@email.com"
-            className="bg-[#F9F9F9] h-[48px] w-[60%] md:w-[346px] py-2 px-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#2A254B] transition"
+            className="bg-[#F9F9F9] h-[56px] w-[65%] md:w-[346px] py-2 px-4  border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#2A254B] transition"
           />
-          <button className="md:px-6 px-8 py-3 text-center bg-[#2A254B] text-white  hover:bg-[#1E1A39] transition">
+          <button className="w-[118px] h-[56px] py- text-center bg-[#2A254B] text-white  hover:bg-[#1E1A39] transition">
             Sign Up
           </button>
         </div>
