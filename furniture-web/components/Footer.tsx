@@ -1,4 +1,5 @@
 import react from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaSkype, FaTwitter } from 'react-icons/fa'
 
 export const Footer = () => {
     return (
@@ -49,7 +50,17 @@ export const Footer = () => {
         </div>
                  </div>
            </main>
-            <div className="w-full py-12 flex justify-between items-center"></div>
+            <div className="w-full py-12 flex justify-between items-center">
+                <p className="text-lg">Copyright 2022 Avion LTD</p>
+                <div className="flex items-center gap-3">
+                <FaLinkedin />
+                <FaFacebook />
+                <FaInstagram />
+                <FaSkype />
+                <FaTwitter />
+                <FaPinterest />
+                </div>
+            </div>
         </footer>
        </>
     )
