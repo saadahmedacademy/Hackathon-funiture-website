@@ -9,7 +9,7 @@ export const Navbar = () => {
       {/* Top Navigation Bar */}
       <nav className="h-1/2 border-b w-full flex items-center justify-between px-4 py-2 gap-2">
         {/* Search Icon (Visible on larger screens) */}
-        <Link href={"/"} className="md:flex hidden" aria-label="Search">
+        <Link href={"/productlisting"} className="md:flex hidden" aria-label="Search">
           <IoSearch className="text-xl" />
         </Link>
 
@@ -19,7 +19,7 @@ export const Navbar = () => {
         {/* Icons Section */}
         <div className="flex items-center gap-3">
           {/* Search Icon (Visible on mobile) */}
-          <Link href={"/"} className="md:hidden" aria-label="Search">
+          <Link href={"/productlisting"} className="md:hidden" aria-label="Search">
             <IoSearch className="text-xl" />
           </Link>
 
