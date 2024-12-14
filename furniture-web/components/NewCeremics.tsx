@@ -12,7 +12,7 @@ export const NewCeremics = () => {
 
       {/* Responsive Grid Layout */}
       <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6">
-        {newCeramic.map((ceramic, index) => (
+        {newCeramic.slice(0, 4).map((ceramic, index) => (
           <div
             key={index}
             className="flex flex-col gap-4 items-start text-gray-600"

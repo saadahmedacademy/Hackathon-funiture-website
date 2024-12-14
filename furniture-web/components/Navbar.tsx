@@ -14,7 +14,9 @@ export const Navbar = () => {
         </Link>
 
         {/* Logo */}
-        <h1 className="text-[24px] text-[#22202E]">Avion</h1>
+        <Link href={"/"}>
+        <h1 className="text-[24px] text-[#22202E]" aria-label="Logo">Avion</h1>
+        </Link>    
 
         {/* Icons Section */}
         <div className="flex items-center gap-3">

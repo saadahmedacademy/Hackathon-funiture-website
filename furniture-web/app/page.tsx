@@ -4,7 +4,6 @@ import { NewCeremics } from "@/components/NewCeremics";
 import { PopularProduct } from "@/components/PopularProduct";
 import { SignUp } from "@/components/SignUp";
 import { StudioSection } from "@/components/StudioSection";
-import { Footer } from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -15,7 +14,6 @@ export default function Home() {
     <PopularProduct />
     <SignUp />
     <StudioSection />
-    <Footer />
     </>
   );
 }
