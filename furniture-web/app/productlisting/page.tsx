@@ -16,8 +16,8 @@ export default function Page() {
           priority
         />
 
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-3">
-          <h1 className="text-3xl font-semibold text-white">All Products</h1>
+        <div className="lg:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-3">
+          <h1 className="md:text-3xl text-2xl font-semibold text-white">All Products</h1>
         </div>
       </section>
 

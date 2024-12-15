@@ -31,7 +31,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Shopping Cart Icon */}
-          <Link href={"/"} aria-label="Shopping Cart">
+          <Link href={"/shpping-carts"} aria-label="Shopping Cart">
             <LuShoppingCart className="text-xl" />
           </Link>
         </div>
