@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 import newCeramic from "@/jsondata/newCeramic.json";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -74,6 +75,7 @@ export default function Page() {
       <section className="sm:container mx-auto w-full md:px-0 px-2 py-4">
         <div className="w-full grid grid-cols-2 md:grid-rows-3 grid-rows-4 md:grid-cols-4 gap-6">
           {newCeramic.map((ceramic, index) => (
+            <Link href={`/product-detail/${ceramic.id}`} key={ceramic.id}>
             <div
               key={index}
               className="flex flex-col gap-4 items-start text-gray-600"
@@ -93,6 +95,7 @@ export default function Page() {
               {/* Ceramic Price */}
               <p className="text-lg font-semibold">{ceramic.price}</p>
             </div>
+            </Link>
           ))}
         </div>
       </section>

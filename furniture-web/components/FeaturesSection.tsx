@@ -5,7 +5,7 @@ import showfeatures from "@/jsondata/feartureData.json";
 
 export const FeaturesSection = () => {
   return (
-    <div className="w-full flex flex-col items-start md:items-center justify-center px-4 py-28">
+    <div className="w-full flex flex-col items-start md:items-center justify-center px-4 py-24">
       <h1 className="text-2xl md:text-3xl font-sans">
         What makes our brand different
       </h1>
