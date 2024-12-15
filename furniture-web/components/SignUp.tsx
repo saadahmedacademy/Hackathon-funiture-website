@@ -6,7 +6,7 @@ export const SignUp = () => {
       <main className="md:container md:mx-auto w-full flex flex-col items-center justify-center gap-12 px-6 py-12 border bg-white rounded-lg shadow-sm">
         {/* Heading Section */}
         <div className="flex flex-col items-center justify-center gap-3 text-center">
-          <h1 className="text-2xl font-semibold text-gray-800">
+          <h1 className="text-2xl text-gray-800">
             Join the club and get the benefits
           </h1>
           <p className="text-lg text-gray-600 md:w-[470px] w-full">

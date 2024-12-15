@@ -14,7 +14,7 @@ export const FeaturesSection = () => {
         {showfeatures.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow"
+            className="flex flex-col gap-3 p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow bg-[#F9F9F9]"
           >
             <span className="text-xl">
               <Image

@@ -26,7 +26,7 @@ export const Navbar = () => {
           </Link>
 
           {/* User Icon */}
-          <Link href={"/"} aria-label="User Account">
+          <Link href={"/about-us"} aria-label="User Account">
             <IoPersonCircleOutline className="text-xl" />
           </Link>
 
