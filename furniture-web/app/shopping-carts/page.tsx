@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Page = () => {
   interface Product {
@@ -11,22 +11,26 @@ const Page = () => {
     img: string;
   }
 
-  const [productList, setProductList] = useState<Product[]>([
-    {
-      id: "1",
-      title: "Graystone vase",
-      heading: "A timeless ceramic vase with a tri-color grey glaze",
-      price: "£85",
-      img: "/popularProduct/product3.svg",
-    },
-    {
-      id: "2",
-      title: "Basic white vase",
-      heading: "Beautiful and simple, this is one for the classics",
-      price: "£125",
-      img: "/popularProduct/product4.svg",
-    },
-  ]);
+  const [productList, setProductList] = useState<Product[]>([]);
+
+  useEffect(() => {
+    setProductList([
+      {
+        id: "1",
+        title: "Graystone vase",
+        heading: "A timeless ceramic vase with a tri-color grey glaze",
+        price: "£85",
+        img: "/popularProduct/product3.svg",
+      },
+      {
+        id: "2",
+        title: "Basic white vase",
+        heading: "Beautiful and simple, this is one for the classics",
+        price: "£125",
+        img: "/popularProduct/product4.svg",
+      },
+    ]);
+  }, []);
 
   return (
     <div className="w-full bg-[#F9F9F9] text-[#2A254B]">
