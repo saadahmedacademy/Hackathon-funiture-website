@@ -5,7 +5,7 @@ import { LuShoppingCart } from "react-icons/lu";
 
 export const Navbar = () => {
   return (
-    <header className="flex flex-col w-full bg-white fixed">
+    <header className="flex flex-col w-full bg-white">
       {/* Top Navigation Bar */}
       <nav className="h-1/2 border-b w-full flex items-center justify-between px-4 py-2 gap-2">
         {/* Search Icon (Visible on larger screens) */}
